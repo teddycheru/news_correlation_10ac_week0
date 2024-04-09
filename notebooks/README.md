@@ -1,10 +1,10 @@
 
 ### Some of the functions available in the notebooks and codes in this repository
 
-#### Slack Data Parsing Functions
-`slack_parser`: Parses Slack data to extract relevant information such as message type, content, sender details, thread information, etc. Combines data from multiple JSON files and returns a DataFrame.
+#### News Data Parsing Functions
+`News_parser`: Parses News data to extract relevant information such as article_id, source_id, source_name, author, title, description, url, url_to_image, published_at, content,category, full_content, dtype='object'
 
-`parse_slack_reaction`: Retrieves reaction-related information from Slack data, including reaction name, count, users, associated message, and user ID. Returns a DataFrame.
+`parse_News_reaction`: Retrieves reaction-related information from News data, including reaction name, count, users, associated message, and user ID. Returns a DataFrame.
 
 `convert_2_timestamp`: Converts Unix time to a readable timestamp for specified columns in the DataFrame.
 
@@ -13,7 +13,7 @@
 
 `get_community_participation`: Analyzes community participation by counting the number of replies for each user.
 
-`map_userid_2_realname`: Maps Slack IDs to real names using user profiles. Optionally, plots a bar graph of message counts for each user.
+`map_userid_2_realname`: Maps News IDs to real names using user profiles. Optionally, plots a bar graph of message counts for each user.
 
 `get_top_20_user`: Plots the top 20 message senders in a specified channel.
 
