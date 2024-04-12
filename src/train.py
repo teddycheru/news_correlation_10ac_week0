@@ -1,9 +1,7 @@
 import os
 import mlflow
 
-def train_model():
-    # Your model training code
-    model = ...
+def train_model(model):
 
     # Log the model using MLflow
     mlflow.log_model(model, "model")
